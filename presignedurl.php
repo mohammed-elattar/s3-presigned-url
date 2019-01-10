@@ -1,5 +1,5 @@
-use League\Flysystem\AwsS3v3\AwsS3Adapter;
-use League\Flysystem\Filesystem;        
+<?php
+use Aws\S3\S3Client;     
         class AwsUtils{
         public function generatePresignedIrl(){
         $s3Client = new S3Client([
